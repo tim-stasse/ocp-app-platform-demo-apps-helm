@@ -7,7 +7,7 @@ app:
   namespace:
     name: my-quarkus-api-dev
     istio:
-      enabled: false
+      enabled: true
 
   # Container image built by the build-deployer pipeline
   image:
